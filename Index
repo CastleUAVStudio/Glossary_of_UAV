@@ -1,0 +1,117 @@
+A
+
+ACC(Accelerometer)加速度计:测量三轴直线加速度，重力加速度。
+
+AHRS(Attitude and Heading Reference System)航姿参考系统:内部包括多个轴向传感器，能够为飞行器提供航向，横滚和侧翻信息，为飞行器提供准确可靠的姿态与航行信息。硬件结构为由陀螺仪(Gyro)、加速度计(ACC)、强磁计组成的完整系统。与IMU区别在于前者仅提供传感器信息，而AHRS包含对姿态数据和航向信息的解算。（词条贡献者：@赵晓伟 ）
+
+B
+
+Bell-Hiller：无人机主旋翼结构的一部分，用于将自动倾斜器的输入转化为主旋翼变距。
+
+BLDC(Brushless DC Motor)无刷直流电机：输入为三相电，是无人机的主要动力元件。常用简写还包括BLDCM，BDCM（改简写在必应词典中出现，但没有突出词尾less）。（合作编辑@PhoeX ）
+
+BDS(BeiDou Navigation Satellite System)北斗卫星导航系统:就是北斗系统，大家应该很熟悉了，日后对此详细解释，进行词条扩充。
+
+BEC(Battery Elimination Circuit )：为FCU提供稳定5V电源输入
+
+C
+
+CES(International Consumer Electronics Show)国际消费类电子产品展览会
+
+Compass电子罗盘:借助自身磁通量传感器感应到周围环境磁场变化，从而指导飞控确定飞机航向。
+
+D
+
+DGPS(Differential Global Positioning System)差分全球定位系统：通过位置差分、伪距差分、载波相位差分等不同方式提高定位精度。在硬件上相比于GPS增加基准站。
+
+DOF(Degree Of Freedom)自由度
+
+E
+
+ECEF(Earth Centered Earth Fixed Coordinate System):地球中心坐标系
+
+ESC(Electronic Speed Control)电调:全称电子调速器。输入为直流电，输出为三相电。同时具有稳压能力。在无人机中的作用一方面根据飞控输入来输出对电机的控制电流，一方面通过BEC（ Battery Elimination Circuit ）为飞控提供5v电压
+
+F
+
+FCS(Flight Control System)飞行控制系统：与FCU相区别，FCS是包含FCU以及其它硬件、软件、算法的系统集合。
+
+FCU(Flight Control Unit)飞行控制单元：接收并处理从接收机发来的遥控器信号；接收并处理传感器发来的反馈信号；通过相应算法得出机体信息；通过相应算法结合机体信息得出控制输出量；将控制输出量给出到执行器部分的软件与硬件的结合。
+
+Flybar副翼：常见于直升机主旋翼系统，作用是为主旋翼挥舞提供更大的系统阻尼。在一些设计中已被电子增稳系统取代。
+
+G
+
+GCS(Ground Control Station)地面控制站:无人机地面站形式不一，但在功能上至少应该具备对无人机运动的控制能力，一定的人机交互界面。当下地面站的功能越来越强大往往包括，但不限于下列功能：无人机飞行控制，无人机导航控制，无人机导航任务设定，无人机硬件校准，无人机，无人机数据处理，无人机路径自动规划，参数调整等。
+
+特别提醒，“地面站”这个简称更常用于描述卫星地面站，建议大家在无人机系统中使用“地面控制站”来区分描述。
+
+GMU(GPS&Magnetometer Unit)GPS磁罗盘模块:与其成为一种硬件名称，MR.城堡更倾向于将其看做无人机飞控子模块的一种设计方式。由于位置要求、干扰来源等因素，可以将GPS和强磁计放在一个模块里。
+
+GPS(Global Positioning System)全球定位系统
+
+Gyroscope/Gyro陀螺仪:常用为基于MEMS的压电式陀螺仪。芯片的输出信号是与所测得的角速度大小成正比的电压变化。
+
+I
+
+IDE(Integrated Development Environment)集成开发环境：英文缩写经常重名，懒惰就会带来这些麻烦，在无人机行业一般翻译为：集成开发环境，也就是无人机程序编写，编译，下载的软件环境。
+
+IMU(Inertial Measurement Unit)惯性测量单元:6自由度IMU主要包括陀螺仪，加速度计，分别测量三个轴向的旋转角速度和三个轴向的直线加速度——为机体坐标系下数值。
+
+IRDS(infrared distance sensor)红外测距传感器，常见的其它简写如IR distance sensor都是相同含义。
+
+L
+
+LiPo(Lithium-Polymer Battery):锂聚合物电池
+
+LIU(LED Indication Unit)LED指示单元:通过LED闪烁来确定一些功能的实现或者飞行状况的确认。
+
+M
+
+MEMS( Micro-Electro-Mechanical System ):微机电系统技术。
+
+N
+
+NED(North-East-Down Coordinate System):当地水平坐标系
+
+O
+
+OSD(on screen display)视频叠加模块或者屏幕叠加模块:这个名字不知为何MR.城堡一开始总觉的很高大上，后来发现无论是功能还是体积都是小角色。一般在FPV屏幕中叠加飞行器姿态信息，以便于超视距飞行操作。其实就是在图传回来的信号数据中叠加数据。
+
+P
+
+PMU(Power management)电源模块:对输入电源进行稳压与转换，一般输入电压值可能为10-12.6v之间，飞控板需要的控制芯片大多需要5v稳定电压，数传天线则可能需要3.8v电压，根据GPS模块的不同，可能需要8v供电等。这时就需要多通道的电源模块对电压值进行调整和稳压。
+
+Propeller螺旋桨:最常用于固定翼机型，也用于多旋翼机型，在这种情况下与Rotor混用。
+
+R
+
+RC(Remote control/Radio control):在相关资料中经常会看到这个词，一般是Radio control(无线电控制),也有过Remote control（远程控制或者遥控器控制）。但本质上都是一样的，只不过控制的电磁波频段不同，就分为无线电，红外线或其他波段控制方式。一般采用的遥控器控制是2.4Ghz频段，但在地面站数据通信中有会用到980M。
+
+RC(Remote controller/Radio controller)遥控器:接收并处理从接收机发来的遥控器信号；接收并处理传感器发来的反馈信号；通过相应算法得出机体信息；通过相应算法结合机体信息得出控制输出量；将控制输出量给出到执行器部分的软件与硬件的结合。注意：有时Remote control也用作遥控器。
+
+RCC(Remote control channel/CH):通过遥控器操纵无人机某种被控变量的途径。举例而言，控制无人机俯仰的途径为俯仰通道（纵向通道），偏航的为偏航通道，横滚的为横滚通道（横向通道）等。
+
+Receiver接收机:接收遥控器发送的电磁波并将控制信息转送给飞控板。
+
+Rotor旋翼:分为变距桨和定距桨。变距桨多用于直升机型无人机，定距桨多用于多旋翼无人机。
+
+S
+
+SM(Servo motor)伺服电机:这个词汇的缩写充分体现出很多工程师确实需要更多的室外活动。在小型无人机领域中用到的伺服都很小，而且主要用于直升机型的无人机或者多旋翼机航拍时的云台。好处是响应速度明显快于无刷直流电机，以前伺服电机的数学模型是一阶惯性加延迟，现在随着响应速度的进一步提升延迟部分已经可以去掉了。伺服电机的控制精度非常高，从位置A到位置B有着快速精准的优势。
+
+T
+
+TPP(Tip-Path-Plane)浆尖平面：反映了无人机主旋翼升力方向，是对无人机进行姿态控制的重要参照对象。
+
+Trim配平:通过调整无人机姿态使得无人机在三个通道（横向，纵向，垂向）上速度，加速度为零。配平是稳定控制与数据采集的基础。
+
+V
+
+VTOL(Vertical Take-Off and Landing)垂直起降:指飞行器具备垂直起降的能力。具备VTOL能力的飞行器常见的有：直升机型，多旋翼型，涵道型以及上述类型的复合型飞行器。特别注意：旋翼飞行器不具备VTOL能力。
+
+W
+
+WGS-84(World Geodetic Coordinate System 1984):WGS-84大地坐标系。
+
+WP(Work point)工作点:指无人机开始工作使的状态（姿态，各通道控制输入等）。无人机一般是非线性的被控对象，线性化都只能在某个点的附近。在实际使用中，一般是调整遥控器各通道初始值，使得无人机启动即达到配平状态的工作点。
