@@ -2,7 +2,8 @@
 
 ### 一、写在前面
 
-文章最早放在知乎专栏：*[无人机中的城堡](https://zhuanlan.zhihu.com/castleofUAV)* 中*[城堡里学无人机：无人机行业用语词典（Keep 更新ing）](https://zhuanlan.zhihu.com/p/21849795)* 。但是更新的效率实在是太低了~~~ 因此决定放到Git上。另外一方面，在Git上也更有益于该部分内容的实现。
+文章最早放在知乎专栏：*[无人机中的城堡](https://zhuanlan.zhihu.com/castleofUAV)* 中
+*[城堡里学无人机：无人机行业用语词典](https://zhuanlan.zhihu.com/p/21849795)* 。但是更新的效率实在是太低了~~~ 因此决定放到Git上。另外一方面，在Git上也更有益于该部分内容的实现。
 
 ### 二、为什么是词汇？
 
